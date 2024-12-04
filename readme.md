@@ -12,7 +12,16 @@ $$ A(m,n) = A(m-1, A(m-1, n - 1)) $$
 The recursive call to Ackermann in the third condition is the one that makes this function so nasty!
 
 ## Usage
-=======
+A simple
 ```
 make 
+```
+in the root directory will create C (ackermann_c) and Rust (ackermann_rust) binaries in the root directory. Pass on the arguments to the Ackermann function as:
+```
+./ackermann_rust m n
+```
+
+For the python implementation:
+```
+python src/Ackermann.py m n
 ```
