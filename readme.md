@@ -16,11 +16,12 @@ A simple
 ```
 make 
 ```
-in the root directory will create C (ackermann_c) and Rust (ackermann_rust) binaries in the root directory. Pass on the arguments to the Ackermann function as:
+in the root directory will create C (ackermann_c) and Rust (ackermann_rust) binaries.
+
+Pass on the arguments to the Ackermann function as:
 ```
 ./ackermann_rust m n
 ```
-
 For the python implementation:
 ```
 python src/Ackermann.py m n
