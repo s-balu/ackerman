@@ -4,11 +4,18 @@ Ackermann function is an (probably the first) example of a computable function t
 
 The function is an example of computational complexity that blows up quite rapidly. 
 Mathematically, Ackermann function is defined by:
-```
-```
+
 $$ A(0,n) = n + 1 $$
 $$ A(m,0) = A(m-1, 1) $$
 $$ A(m,n) = A(m-1, A(m-1, n - 1)) $$
-```
-```
+
 The recursive call to Ackermann in the third condition is the one that makes this function so nasty!
+
+Usage
+=====
+
+```
+make 
+```
+```
+```
