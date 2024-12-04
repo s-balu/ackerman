@@ -11,11 +11,6 @@ fn ackermann(m: u32, n: u32) -> u32 {
 fn main() {
     let args: Vec<String> = env::args().collect();
 
-    //if args.len() != 3 {
-    //    eprintln!("Usage: {} <m> <n>", args[0]);
-    //    std::process::exit(1);
-    //}
-
     let m: u32 = args[1].parse().expect("m should be positive");
     let n: u32 = args[2].parse().expect("n should be positive");
 
