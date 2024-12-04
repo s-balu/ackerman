@@ -1,4 +1,4 @@
-### Ackermann function in C, Rust, and Python
+# Ackermann function in C, Rust, and Python
 
 Ackermann function is an (probably the first) example of a computable function that is fundamentally recursive. What this means is that it is not possible to recast the Ackermann function in terms of for loops (unlike, say, the Fibonacci series).
 
@@ -11,11 +11,8 @@ $$ A(m,n) = A(m-1, A(m-1, n - 1)) $$
 
 The recursive call to Ackermann in the third condition is the one that makes this function so nasty!
 
-Usage
-=====
-
+## Usage
+=======
 ```
 make 
-```
-```
 ```
