@@ -9,7 +9,7 @@ $$ A(0,n) = n + 1 $$
 $$ A(m,0) = A(m-1, 1) $$
 $$ A(m,n) = A(m-1, A(m-1, n - 1)) $$
 
-The recursive call to Ackermann in the third condition is the one that makes this function so nasty!
+The recursive call to Ackermann in the third condition is what makes this function so nasty! The fact that the arguments to the Ackermann function in each recursion decreases imply that the function will end (i.e. the Ackermann function is computable). 
 
 ## Usage
 A simple
